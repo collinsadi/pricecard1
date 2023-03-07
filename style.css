@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #01e37f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maincard{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.imagecard{
+    position: absolute;
+width: 25%;
+height: 450px;
+margin-top: 25px;
+background-color: black;
+left: 300px;
+border-radius: 10px;
+background-color: #b4e83d;
+box-shadow: 3px 0 8px rgba(0, 0, 0, 0.308);
+}
+.icons{
+    color: white;
+
+}
+.fa-share-nodes{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.fa-heart{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.imagecard img{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: -75px;
+}
+.variations{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+.detailscard{
+    margin-left: 23%;
+    margin-top: 25px;
+    width: 25%;
+    position: absolute;
+    
+    background-color: rgb(255, 255, 255);
+   
+   
+
+}
+.detailscard h2{
+    text-align: left;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+   margin-bottom: 0;
+}
+p#under{
+color: gray;
+margin-top: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.detailscard h4{ 
+    color: red;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.price{
+    font-size: 50px;
+}
+P#selectcolor{
+    color: gray;
+    margin-top: 10px;
+}
+.colors{
+    width: 60%;
+    height: 50px;
+    display: flex;
+}
+.colorite{
+    width: 30%;
+    height: 100%;
+    margin-left: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.397);
+}
+.colorite img{
+    width: 100%;
+    margin-top: 2px;
+    
+}
+.yellowcolor img{
+    height: 90%;
+    width: 80%;
+    margin-left: 5px;
+}
+#benefits{
+    color: gray;
+    margin-top: 30px;
+}
+ul{
+    margin-left: 0;
+}
+#image2{
+    height: 80%;
+    margin-bottom: 20px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: -75px;
+    display: none;
+}
+#image3{
+    display: none;
+}
+#description{
+    text-align: center;
+    color: green;
+}
+.detailscard li{
+    font-size: 13px;
+    color: black;
+
+}
+.addtocart{
+    background-color:red;
+    color:white;
+    width:150px;
+    padding:15px;
+    text-decoration:none;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.479);
+}
+
+@media screen and (max-width:800px){
+
+        .maincard{
+            margin-top: 2px;
+            width: 100%;
+            margin-top: 500px;
+            height: 600px;
+
+        }
+        .imagecard{
+         margin-left: 0px;
+        top: 2px;
+        width: 90%;
+            height: 300px;
+       
+        }
+        .imagecard img{
+            display: none;
+        }
+
+}
